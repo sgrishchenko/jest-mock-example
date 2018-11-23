@@ -4,12 +4,22 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "compile": "flow",
     "test": "jest"
   },
   "dependencies": {
-    "@types/jest": "^23.3.9",
-    "jest": "^23.6.0",
-    "ts-jest": "^23.10.4",
-    "typescript": "^3.1.6"
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.1.5",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "flow-bin": "^0.86.0",
+    "flow-typed": "^2.5.1",
+    "jest": "^23.6.0"
   }
 }
